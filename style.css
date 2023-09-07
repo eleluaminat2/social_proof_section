@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+   }
+main{
+ display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  background-image: url(images/bg-pattern-top-mobile.svg);
+  background-image: url(images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.container{
+  width: 100%;
+  margin: aut0;
+  max-width: 300px;
+  align-items: center;
+  font-size: 15px;
+  }
+h2{
+  color:  hsl(300, 43%, 22%);
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+.text{
+  color: hsl(303, 10%, 53%);
+  text-align: center;
+  margin: 15px 0 20px 0;
+}
+.text1{
+  color: hsl(300, 43%, 22%);
+  
+}
+.reviews{
+  padding: 10px;
+  background-color:  hsl(300, 24%, 96%);
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.guru{
+  padding: 10px;
+  background-color:  hsl(300, 24%, 96%);
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.bestTech{
+  padding: 10px;
+  background-color:  hsl(300, 24%, 96%);
+  margin-bottom: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.flex{
+  display: flex;
+}
+h3{
+  color: hsl(0, 0%, 100%);
+}
+.colton{
+background-color: hsl(300, 43%, 22%);
+margin-bottom: 10px;
+padding: 30px;
+border-radius: 5px;
+}
+.irene{
+  background-color: hsl(300, 43%, 22%);
+  margin-bottom: 10px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.anne{
+  background-color: hsl(300, 43%, 22%);
+  margin-bottom: 10px;
+  padding: 30px;
+  border-radius: 5px;
+}
+.coral{
+  color: hsl(333, 80%, 67%); 
+}
+.image{
+  border: 1px solid;
+    border-radius: 50%;
+    width: 30px;
+    margin: 20px 20px 20px 0;
+}
+.note{
+  color:  white; 
+}
+.buyer{
+  margin: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  }
